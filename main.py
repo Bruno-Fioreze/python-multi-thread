@@ -5,7 +5,7 @@ def memory_ram_stats():
     memory_info = process.memory_info()
     memory_usage_mb = memory_info.rss / 1024 / 1024
 
-    print(f"Uso de RAM do programa Python: {memory_usage_mb:.2f} MB")
+    print(f"total RAM: {memory_usage_mb:.2f} MB")
 
 def task():
     semaforo.acquire()
